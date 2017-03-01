@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: sample-boot-app
+
+management:
+  info:
+    git:
+      # use 'mode: full' for more Git details
+      mode: simple

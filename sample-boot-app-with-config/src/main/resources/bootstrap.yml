@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: sample-boot-app-with-config
+  cloud:
+    config:
+      uri: http://localhost:${config.port:8888}
+#      label: master
